@@ -1,0 +1,15 @@
+# venv
+/venv
+
+# dataset folder which will be created with code
+/data
+
+# latex of draft paper
+/latex_arxiv
+latex_arxiv.zip
+
+# notebook checkpoints
+/.ipynb_checkpoints
+
+# archived work, not for sharing
+/archived
