@@ -22,9 +22,9 @@ This folder contains some historic work, showing Pascal's triangle built via per
     The Dataset may also be found here: https://ieee-dataport.org/keywords/binomial-expansion
 
 
-## Latex
+## LaTeX
 
-This is now added to gitignore but contained latex files used to create draft paper. The paper should be available in /pdf form at the top level of the repo
+This is now added to gitignore but contained latex files used to create draft paper. The paper should be available in .pdf form at the top level of the repo
 
 ## Data
 
