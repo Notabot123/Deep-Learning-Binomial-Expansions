@@ -8,17 +8,18 @@ This folder contains some historic work, showing Pascal's triangle built via per
 ## Main files
 
 - pascal_revisited.ipynb
-    this file picks up rom the 'legacy' folder using keras. It creates a pascal_model module, which is reused in the pascal_binomial_expansion main script
+    This file picks up rom the 'legacy' folder using keras. It creates a pascal_model module, which is reused in the pascal_binomial_expansion main script
 
 - pascal_binomial_expansion.ipynb
-    this is the main file in the repo. It is rather long winded, but covers each step in building the full model for binomial expansions. It takes the pascal_model from previous script, makes use of 'exponent arrays' such that correct coefficients are applied.
-    Using SymPy
+    This is the main file in the repo. It is rather long winded, but covers each step in building the full model for binomial expansions. It takes the pascal_model from previous script, makes use of 'exponent arrays' such that correct coefficients are applied.
+    Using SymPy, we generate a series of equations and then expand them, to use as Ground Truth in the experiment.
+  As a bonus, we show that the triangle could be indexed in terms of columns, not just rows, resulting in Simplex numbers in the example.
 
 - multiples_of_thirteen.ipynb
-    a very basic file showing alternative use of the indexing mechanism. Here, we can supply known multiples of 13 and show that we can 'match' in bound numbers against these
+    A very basic file showing alternative use of the indexing mechanism. Here, we can supply known multiples of 13 and show that we can 'match' in bound numbers against these
 
 - latex_supervised.ipynb
-    this file firstly creates a series of images of latex equations, created using SymPy. These are representative of factored equations which would be suitable for binomial expansion as demonstrated by 'pascal_binomial_expansion.ipynb'. This file contains a simple CNN model, which has 5 concurrent softmax layers to classify the coefficients, exponents and whether coefficients are positive or negative.
+    This file firstly creates a series of images of latex equations, created using SymPy. These are representative of factored equations which would be suitable for binomial expansion as demonstrated by 'pascal_binomial_expansion.ipynb'. This file contains a simple CNN model, which has 5 concurrent softmax layers to classify the coefficients, exponents and whether coefficients are positive or negative.
     The Dataset may also be found here: https://ieee-dataport.org/keywords/binomial-expansion
 
 
